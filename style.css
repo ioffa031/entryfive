@@ -1,0 +1,33 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+h1 {
+    margin-top: 1vw;
+    margin-left: 30vw;
+    font-family: seismic-latin-variable, sans-serif;
+    font-variation-settings: "SEIS" 50, "wght" 200;
+    
+}
+
+h2 {
+    margin-top: 3vw;
+    margin-left: 25vw;
+    font-family: seismic-latin-variable, sans-serif;
+    font-variation-settings: "SEIS" 0, "wght" 100;
+}
+
+.poem {
+    position: fixed;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    font-family: source-code-pro, monospace;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
