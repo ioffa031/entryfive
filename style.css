@@ -5,6 +5,37 @@
     box-sizing: border-box;     
 }
 
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+li{
+    display:inline;
+
+}
+
+a{
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(44, 42, 92);
+    font-family: source-code-pro, monospace;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size:2.5vw;
+    color: white;
+    transition: .3s;
+}
+
 h1 {
     margin-top: 1vw;
     margin-left: 30vw;
@@ -21,13 +52,38 @@ h2 {
 }
 
 .poem {
-    position: fixed;
-    text-align: center;
-    top: 30%;
-    left: 50%;
     font-family: source-code-pro, monospace;
     font-weight: 200;
     font-style: normal;
+}
 
+.stanza1 {
+    position:absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+
+}
+
+.stanza2 {
+    position:absolute;
+    text-align: center;
+    top: 160%;
+    left: 10%;
+
+}
+
+.stanza3 {
+    position: absolute;
+    text-align:center;
+    top: 300%;
+    left: 60%;
+}
+
+.stanza4 {
+    position:absolute;
+    text-align:center;
+    top: 500%;
+    left: 15%;
 }
 
